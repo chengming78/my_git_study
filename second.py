@@ -20,3 +20,6 @@ source_paths = [doc.metadata['source'] for doc in source_documents if 'source' i
 print(source_paths)
 # 使用set去重路径
 unique_source_paths = list(set(source_paths))
+
+full_urls = [urljoin for path in unique_source_paths]
+response += "\n论文下载地址:" + "".join(new_url)
