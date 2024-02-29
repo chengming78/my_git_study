@@ -8,4 +8,4 @@
 @Description:
 """
 import numpy as np
-import pnadas as pd
+import pandas as pd
